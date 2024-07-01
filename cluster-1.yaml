@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-org-cluster-1
+  description: |
+    My organization cluster 1
+  links:
+    - title: Website
+      url: http://cluster-1.my.org
+  annotations:
+    github.com/project-slug: rgolangh/backstage-entities
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://backstage.io
+spec:
+  type: cluster
+  owner: my.org
+  lifecycle: experimental
