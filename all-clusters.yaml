@@ -5,4 +5,4 @@ metadata:
   description: A collection of cluster entities
 spec
   targets:
-    - ./cluster1.yaml
+    - ./cluster-1.yaml
