@@ -34,5 +34,5 @@ metadata:
   description: A collection of all clusters
 spec:
   targets:
-    - ./all-clusters.yaml
+    - ./cluster-1.yaml
     
