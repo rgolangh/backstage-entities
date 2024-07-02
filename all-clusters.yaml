@@ -3,6 +3,6 @@ kind: Location
 metadata:
   name: clusters
   description: A collection of cluster entities
-spec
+spec:
   targets:
     - ./cluster-1.yaml
