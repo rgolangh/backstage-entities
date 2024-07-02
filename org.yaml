@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: my-org
-  description: The acme-corp organization
+  description: My org organization
   links:
     - url: http://www.example.org
       title: Website
