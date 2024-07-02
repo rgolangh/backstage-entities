@@ -35,4 +35,5 @@ metadata:
 spec:
   targets:
     - ./cluster-1.yaml
+    - ./cluster-2.yaml
     
