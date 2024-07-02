@@ -13,7 +13,6 @@ spec:
   profile:
     displayName: My Org
     email: info@example.org
-    picture: 
   children: [infrastructure]
 ---
 apiVersion: backstage.io/v1alpha1
