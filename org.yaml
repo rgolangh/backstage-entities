@@ -1,0 +1,39 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: my-org
+  description: The acme-corp organization
+  links:
+    - url: http://www.example.org
+      title: Website
+    - url: https://meta.wikimedia.org/wiki/
+      title: Intranet
+spec:
+  type: organization
+  profile:
+    displayName: My Org
+    email: info@example.org
+    picture: 
+  children: [infrastructure]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: groups
+  description: A collection of all Backstage Groups
+spec:
+  targets:
+    - ./infrastructure-group.yaml
+    - ./backstage-group.yaml
+    - ./team-a-group.yaml
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: clusters
+  description: A collection of all clusters
+spec:
+  targets:
+    - ./all-clusters.yaml
+    
