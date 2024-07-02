@@ -15,3 +15,6 @@ spec:
   type: cluster
   owner: my.org
   lifecycle: experimental
+  url: console-openshift-console.my-org-cluster-1.my.org
+  a: 1
+  b: 2
